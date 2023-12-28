@@ -42,6 +42,9 @@ for i in range(1,len(matrix)):
         else:
             matrix[i][j] = str(data[winning_team][opposing_team]['W'])
 
+# printing the matrix
+print(matrix)       
+        
 # printing row by row for visualization
 for row in matrix:
     print(row)
